@@ -14,6 +14,8 @@ class MovieView(ListView):
     template_name = 'movies/movie_list.html'
 
 
+
+
 class ModelDetailView(DetailView):
     # Полное описание фильма
     model = Movie
